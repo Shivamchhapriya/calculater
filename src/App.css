@@ -1,0 +1,160 @@
+  /* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.calculater-box{
+  position: relative;
+  width: 320px;
+  height: 520px;
+  border-radius: 10px;
+  background-color: #fff;
+  /* top: 60%; */
+  left: 40%;
+  transform: translate(0%,30%);
+}
+.calculater-box .result{
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid green;
+}
+.calculater-box .result .history{
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
+.result .history{
+  font-size: 17px;
+  font-weight: 400;
+  /* font-family:; */
+  /* margin-top: 50px; */
+  /* letter-spacing: 0.2ch; */
+  padding-top: 1px;
+}
+.result .total-result{
+  text-align: right;
+  /* font-weight: 300; */
+  letter-spacing: 0.2ch;
+  font-size: 23px;
+  color: #3A3845;
+  /* font-weight: -300; */
+}
+.background-body{
+  background-color: black;
+  width: 100%;
+  height: 750px;
+}
+.button-box button{
+  border: none;
+  background: none;
+  font-size: 20px;
+  /* margin-top: 5px; */
+  padding: 28px;
+  /* margin-left: 36px; */
+}
+#device{
+  border: 2px solid black;
+  border-radius: 110%;
+  background-color: #20b2aa;
+  font-size: 20px;
+  border: none;
+  margin-left: 28px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+#multi{
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: #ffa500;
+  font-size: 20px;
+  border: none;
+  text-transform: lowercase;
+  margin-left: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.button-margin{
+  margin-left: 11px;
+  /* padding-left: 10px; */
+}
+#decrese{
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: #f08080;
+  font-size: 20px;
+  border: none;
+  text-transform: lowercase;
+  margin-left: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+#add{
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: #7d93e0;
+  font-size: 20px;
+  border: none;
+  text-transform: lowercase;
+  margin-left: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#empty{
+  margin-left: 90px;
+}
+#total{
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: #E5EFC1;
+  font-size: 20px;
+  border: none;
+  text-transform: lowercase;
+  margin-left: 46px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
